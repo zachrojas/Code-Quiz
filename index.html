@@ -11,7 +11,7 @@
 <!-- This is the header of the page that contains the high scores button and the timer -->
 
 <body>
-    <header class="container-fluid mb-6">
+    <nav class="container-fluid mb-6">
         <div class="row">
             <div class="col-6 d-flex justify-justify-content-start">
                 <button type="button" id="highscores-button" class="btn btn-primary">View High Scores</button>
@@ -20,7 +20,7 @@
                 </div>
             </div>
         </div>
-    </header>
+    </nav>
 
     <!-- This is the main section of the page. It will at first display an intro message with a start button, and then will display the questions one the the start button has been clicked -->
 
@@ -42,14 +42,15 @@
             </div>
         </section>
 
-        <!-- This is where the questions will appear. They will be pull from the script.js file -->
-        
+        <!-- This is where the questions will appear. They will be pulled from the script.js file -->
+
         <section>
             <div id="questions" class="container">
             </div>
         </section>
     </main>
-    <script src=script.js"></script>
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 </body>
 
 </html>
